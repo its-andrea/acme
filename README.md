@@ -8,7 +8,7 @@ Este proyecto despliega una infraestructura segura de AWS, siguiendo las mejores
 
 * **Cuenta de AWS**: Necesitas una cuenta de AWS activa con credenciales de acceso configuradas localmente.
 * **Terraform**: Debe estar instalado en tu máquina.
-* * **Git**: Debe estar instalado en tu máquina.
+* **Git**: Debe estar instalado en tu máquina.
 * https://git-scm.com/downloads/win
 * **Chocolatey**: Debe estar instalado en tu máquina.
 * https://chocolatey.org/install
@@ -62,4 +62,5 @@ Este proyecto despliega una infraestructura segura de AWS, siguiendo las mejores
 Para eliminar todos los recursos creados por Terraform, ejecuta el siguiente comando. Escribe `yes` cuando se te solicite confirmación para evitar costos no deseados.
 ```sh
 terraform destroy
+
 
