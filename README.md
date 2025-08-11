@@ -1,6 +1,6 @@
 ### README: Despliegue de Infraestructura en AWS con Terraform
 
-Este proyecto despliega una infraestructura segura de AWS para el cliente ACME, siguiendo las mejores prácticas de la industria. La infraestructura incluye una VPC con subredes públicas y privadas, un bastion host para acceso seguro, un bucket S3 para almacenamiento y los roles IAM necesarios. El objetivo es simular las actividades de un Cloud Specialist en un entorno de soporte real.
+Este proyecto despliega una infraestructura segura de AWS para el cliente ACME, siguiendo las mejores prácticas de la nube de AWS. La infraestructura incluye una VPC con subredes públicas y privadas, un bastion host para acceso seguro, un bucket S3 para almacenamiento y los roles IAM necesarios con mínimos privilegios.
 
 ***
 
@@ -45,4 +45,5 @@ Este proyecto despliega una infraestructura segura de AWS para el cliente ACME, 
 
 Para eliminar todos los recursos creados por Terraform, ejecuta el siguiente comando. Escribe `yes` cuando se te solicite confirmación para evitar costos no deseados.
 ```sh
+
 terraform destroy
